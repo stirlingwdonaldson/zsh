@@ -14,7 +14,8 @@ fi
 
 export ZSH="$HOME/.oh-my-zsh" # keep at top.
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+ZSH_THEME="robbyrussell"
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="%F{white}...%f"
 DISABLE_UNTRACKED_FILES_DIRTY="true" 
