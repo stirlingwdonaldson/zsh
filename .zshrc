@@ -35,8 +35,15 @@ source $ZSH/oh-my-zsh.sh # keep at bottom
 # |          ALIASES           |
 # +----------------------------+
 
+# applications
 alias vi="nvim"
 alias lg="lazygit" 
+alias oc="opencode" 
+
+# general
+alias c="clear"
+alias md="mkdir"
+alias mf="touch"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
