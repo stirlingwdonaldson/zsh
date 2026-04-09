@@ -19,7 +19,14 @@ ZSH_THEME="robbyrussell"
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="%F{white}...%f"
 DISABLE_UNTRACKED_FILES_DIRTY="true" 
-plugins=(git fzf zoxide)
+plugins=(
+  git
+  fzf
+  zoxide
+  you-should-use
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh # keep at bottom
 
